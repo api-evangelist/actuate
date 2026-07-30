@@ -1,17 +1,51 @@
 aid: actuate
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/actuate.png
 name: Actuate
-description: Actuate is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Actuate Corporation was an enterprise business intelligence and reporting
+  software company founded in 1993 and backed by Accel (partner Arthur
+  Patterson). It was the original developer of BIRT (Business Intelligence and
+  Reporting Tools), building a developer community measured in millions of
+  downloads, and traded on NASDAQ under the ticker BIRT. OpenText acquired
+  Actuate in January 2015 and folded its analytics and reporting technology into
+  OpenText Analytics Cloud. The standalone actuate.com site is no longer an
+  active product presence (all paths return HTTP 404) and the company publishes
+  no independent, live API or developer portal today. A separately named company
+  at actuate.ai (AI video/threat detection) is unrelated to this Accel-portfolio
+  entity and likewise exposes no public API.
 url: https://raw.githubusercontent.com/api-evangelist/actuate/refs/heads/main/apis.yml
 x-type: company
 x-source: accel-portfolio
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: acquired-no-live-api
+x-status: acquired
+x-acquired-by: OpenText
+x-acquired-date: '2015-01'
+x-successor: OpenText Analytics Cloud
+x-website-status: '404'
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Business Intelligence
+- Reporting
+- Analytics
+- BIRT
+- Embedded Analytics
+- Data Visualization
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,3 +55,6 @@ maintainers:
 common:
 - type: Website
   url: http://www.actuate.com
+  status: '404'
+- type: CrunchbaseProfile
+  url: https://www.accel.com/companies/actuate
